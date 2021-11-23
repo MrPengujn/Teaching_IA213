@@ -40,7 +40,7 @@ if( 0 ){
     printf("Conditia 3 a fost executata!\n");
 }
 ```
-![ss]()
+![ss](Teaching_IA213\resources\conditii_ss.png)
 
 ---
 
