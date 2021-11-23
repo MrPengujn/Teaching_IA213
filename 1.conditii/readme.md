@@ -17,6 +17,7 @@ Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti
 ![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
 
 In __C__ o conditie simpla arata astfel:
+
 ---
 ```c
 if( conditie ){
@@ -24,7 +25,9 @@ if( conditie ){
 }
 ```
 ---
+
 daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero.
+
 ---
 ```c
 if( 1 ){
