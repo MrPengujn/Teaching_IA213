@@ -1,1 +1,1 @@
-INFO BOUT SHIT
+Mini curs pentru IA_213
