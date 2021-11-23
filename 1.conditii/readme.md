@@ -3,7 +3,14 @@ Calculatorul lucreaza in numere binare, adica *1* si *0*, nu o sa explic extrem 
 ![on and off memory](https://i.ytimg.com/vi/Xpk67YzOn5w/mqdefault.jpg)
 
 Dupa cum vedeti in imagine, **1** reprezinta beculetele *aprinse* si **0** beculetele *stinse*.
-Deci, daca ne luam dupa aceeasi logica, putem spune ca <br>__1 = true__ si __0 = false__.
+Deci, daca urmam aceasta logica, putem spune ca: 
+<br>__1 = true(adevarat)__ si __0 = false(fals)__.
+
+**Conditiile / ciclurile** lucreaza dupa aceeasi baza dar o modifica un pic, intr-un limbaj de programare, conditia este adevarata daca numarul este diferit de 0 ( mai mare sau mai mic ) si falsa daca numarul este 0:
+<br>__1 = true(adevarat)__
+<br>__15231223 = true(adevarat)__
+<br>__-1241 = true(adevarat)__
+<br>__0 = false(fals)__.
 
 ---
 
