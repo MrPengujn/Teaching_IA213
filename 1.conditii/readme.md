@@ -12,7 +12,11 @@ Deci, daca urmam aceasta logica, putem spune ca:
 - -1241 = true(adevarat)
 - 0 = false(fals).
 
-In C, o conditie simpla arata astfel:
+Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti un intrerupator de lumina, daca setam intrerupatorul pe ON, el va permite curentului eletric sa treaca si sa aprinda becul iar daca il setam pe OFF, acesta nu va continua, ci, spre exemplu, va transmite electricitatea urmatorului intrerupator.
+
+![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
+
+In __C__ o conditie simpla arata astfel:
 ---
 ```c
 if( conditie ){
@@ -20,9 +24,20 @@ if( conditie ){
 }
 ```
 ---
-Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti un intrerupator de lumina, daca setam intrerupatorul pe ON, el va permite curentului eletric sa treaca si sa aprinda becul iar daca il setam pe OFF, acesta nu va continua, ci, spre exemplu, va transmite electricitatea la urmatorul intrerupator
-
-![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
+daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero.
+---
+```c
+if( 1 ){
+    printf("Conditia 1 a fost executata!\n");
+}
+if( -125123 ){
+    printf("Conditia 2 a fost executata!\n");
+}
+if( 0 ){
+    printf("Conditia 3 a fost executata!\n");
+}
+```
+---
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
