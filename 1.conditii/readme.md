@@ -7,10 +7,10 @@ Deci, daca urmam aceasta logica, putem spune ca:
 <br>__1 = true(adevarat)__ si __0 = false(fals)__.
 
 **Conditiile / ciclurile** lucreaza dupa aceeasi baza dar o modifica un pic, intr-un limbaj de programare, conditia este adevarata daca numarul este diferit de 0 ( mai mare sau mai mic ) si falsa daca numarul este 0:
-<br> - __1 = true(adevarat)__
-<br> - __15231223 = true(adevarat)__
-<br> - __-1241 = true(adevarat)__
-<br> - __0 = false(fals)__.
+- 1 = true(adevarat)
+- 15231223 = true(adevarat)
+- -1241 = true(adevarat)
+- 0 = false(fals).
 
 ---
 
