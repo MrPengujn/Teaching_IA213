@@ -16,17 +16,20 @@ Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti
 
 ![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
 
-In __C__ o conditie simpla arata astfel:
-
 ---
+In __C__ o conditie simpla arata astfel:
 ```c
 if( conditie ){
     //cod
 }
 ```
----
+```c
+if( conditie )
+    //cod;
+```
+(Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod)
 
-daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero.
+daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero, deci if-ul verifica valoarea din interiorul parantezelor rotunde.
 
 ---
 ```c
@@ -43,6 +46,7 @@ if( 0 ){
 ![ss](../resources/conditii_ss.png)
 
 ---
+Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
