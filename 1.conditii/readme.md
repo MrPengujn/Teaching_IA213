@@ -12,15 +12,17 @@ Deci, daca urmam aceasta logica, putem spune ca:
 - -1241 = true(adevarat)
 - 0 = false(fals).
 
+In C, o conditie simpla arata astfel:
 ---
-
 ```c
 if( conditie ){
     //cod
 }
 ```
-
 ---
+Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti un intrerupator de lumina, daca setam intrerupatorul pe ON, el va permite curentului eletric sa treaca si sa aprinda becul iar daca il setam pe OFF, acesta nu va continua, ci, spre exemplu, va transmite electricitatea la urmatorul intrerupator
+
+![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
