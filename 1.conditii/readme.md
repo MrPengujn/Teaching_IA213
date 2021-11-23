@@ -40,6 +40,8 @@ if( 0 ){
     printf("Conditia 3 a fost executata!\n");
 }
 ```
+![ss]()
+
 ---
 
 <!--
