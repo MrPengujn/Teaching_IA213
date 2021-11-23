@@ -1,4 +1,4 @@
-Calculatorul lucreaza in numere binare, adica **1** si **0**, nu o sa explic extrem de detaliat ce fac ele deoarece nu avem nevoie sa le folosim avansat inca, tot ce trebuie sa tineti minte e urmatorul concept:
+Calculatorul lucreaza in numere binare, adica *1* si *0*, nu o sa explic extrem de detaliat ce fac ele deoarece nu avem nevoie sa le folosim avansat inca, tot ce trebuie sa tineti minte e urmatorul concept:
 
 ![on and off memory](https://i.ytimg.com/vi/Xpk67YzOn5w/mqdefault.jpg)
 
@@ -15,7 +15,8 @@ if( conditie ){
 
 ---
 
-
+<!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops#:~:text=a%20new%20paragraph.-,In%20a%20Markdown%20file%20or%20widget%2C%20enter%20two%20spaces%20before,action%20begins%20a%20new%20paragraph.
+-->
