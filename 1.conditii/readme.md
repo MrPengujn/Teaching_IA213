@@ -39,10 +39,10 @@ if( -125123 )
     printf("Conditia 2 a fost executata!\n");
 if( 0 ) printf("Conditia 3 a fost executata!\n");
 ```
+> Toate trei tipuri de a scrie conditia sunt corecte dar cel mai bine e sa le utilizati pe primele doua
 ![ss](../resources/conditii_ss.png)
 
 Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
-> Toate trei tipuri de a scrie conditia sunt corecte dar cel mai bine e sa le utilizati pe primele doua
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
