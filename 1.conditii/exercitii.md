@@ -14,8 +14,10 @@ Nu va complicati prea tare ;)
 1. Scrieti un program care initializeaza o variabila numita __parolaBd__ cu o anumita parola, luati input de la utilizator si folositi conditii pentru a verifica daca parola introdusa de utilizator este aceeasi ca parola din variabila __parolaBd__. Daca parolele sunt la fel programul va printa "Logat cu succes!", in caz contrar "Parola incorecta!"
 
 *Pentru cei care cunosc cum lucreaza rand, dar si pentru cei care vor sa experimenteze/invete:*
+
 2. Joc de ghicit cifre:
     Scrieti un program care genereaza un numar aleatoriu de la 1 pana la 10. Dupa ce s-a generat numarul, luati input de la utilizator si verificati daca utilizatorul a ghicit numarul generat aleatoriu.
+    
 3. Modificati exercitiul de mai sus pentru a permite utilizatorului sa-si aleaga nivelul, pentru fiecare nivel se vor alege numere aleatorii in intervale diferite:
     - Nivelul 1 ( cifre de la 1 la 10 )
     - Nivelul 2 ( cifre de la 1 la 100 )
