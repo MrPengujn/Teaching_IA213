@@ -1,4 +1,4 @@
-## Conditii in C
+## 1 si 0 / adevarat si fals
 
 Calculatorul lucreaza in numere binare, adica *1* si *0*, nu o sa explic extrem de detaliat ce fac ele deoarece nu avem nevoie sa le folosim avansat inca, tot ce trebuie sa tineti minte e urmatorul concept:
 
@@ -17,6 +17,8 @@ Deci, daca urmam aceasta logica, putem spune ca:
 Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti un intrerupator de lumina, daca setam intrerupatorul pe ON, el va permite curentului eletric sa treaca si sa aprinda becul iar daca il setam pe OFF, acesta nu va continua, ci, spre exemplu, va transmite electricitatea urmatorului intrerupator.
 
 ![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
+
+## Conditii in C
 
 ---
 >In __C__ o conditie simpla arata astfel:
