@@ -61,6 +61,7 @@ Pe langa faptul ca putem da constante ( constantele sunt numerele hard-codate, a
 - Putem compara doua variable, constante cu ajutorul urmatorilor operatori:
     - **==** 
         - element_1 == element_2 ||| *(returneaza 1 daca elementele sunt egale, altfel 0)*
+        - !!!OPERATORUL DE COMPARATIE ESTE " == ". " = " ESTE OPERATOR DE ATRIBUIRE
     - **!=** 
         - element_1 != element_2 ||| *(returneaza 1 daca elementele nu sunt egale, altfel 0)*
     - **>**  
