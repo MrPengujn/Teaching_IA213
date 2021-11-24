@@ -86,11 +86,13 @@ Aproximativ la fel lucreaza si programul, conditia, if in acest caz, verifica ce
 	{
 		printf("ok");
 	}
-
+```
+```c
 	if (1){
 		printf("ok");
 	}
-
+```
+```c
 	if (1) printf("ok");
 ```
 
@@ -116,10 +118,10 @@ Toate trei sunt blocuri de cod. Aceste linii de cod pot fi scrise si asa:
 					printf("ok");
 ```
 
-Atat timp cat le scriem corect una dupa alta si respectam 
-<br>__if, paranteze rotunde, acolada deschisa, cod, acolada inchisa__ 
+Atat timp cat le scriem corect una dupa alta si respectam una din ordini:
+    - __if, paranteze rotunde, acolada deschisa, cod, acolada inchisa__ 
 <br>sau 
-<br>__if, paranteze rotunde, cod, punct si virgula__
+    - __if, paranteze rotunde, cod, punct si virgula__
 nu conteaza la ce distanta le punem una de alta sau pe ce linie, putem avea 100 de linii goale intre ele, compilatorul va sti ca se incepe de la { si se termina la }, dar va fi mai greu de vizualizat / inteles codul de aceea e bine sa le scrieti mereu dupa un template care este aratat la inceputul sectiei
 
 <!--
