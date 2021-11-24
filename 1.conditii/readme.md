@@ -1,3 +1,5 @@
+###Conditii in C
+
 Calculatorul lucreaza in numere binare, adica *1* si *0*, nu o sa explic extrem de detaliat ce fac ele deoarece nu avem nevoie sa le folosim avansat inca, tot ce trebuie sa tineti minte e urmatorul concept:
 
 ![on and off memory](https://i.ytimg.com/vi/Xpk67YzOn5w/mqdefault.jpg)
@@ -27,7 +29,7 @@ if( conditie ){
 if( conditie )
     //cod;
 ```
-Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod, prima foloseste acolade iar a doua " ; "
+>Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod, prima foloseste acolade iar a doua " ; "
 
 Daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero, deci if-ul verifica valoarea din interiorul parantezelor rotunde.
 
@@ -46,6 +48,20 @@ if( 0 ) printf("Conditia 3 a fost executata!\n");
 ![ss](../resources/conditii_ss.png)
 
 Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
+
+---
+
+###Expresii in conditie
+
+Pe langa faptul ca putem da constante ( constantele sunt numerele hard-codate, aka nu sunt variabile ), putem oferi si diferite expresii conditiilor:
+-Putem oferi direct variabile, conditia va verifica daca variabila este diferita de zero, in cazul in care ea este diferita de zero se va executa codul.
+-Putem compara doua variable, constante cu ajutorul urmatorilor operatori:
+    - ( == ) | element_1 == element_2  (returneaza 1 daca elementele sunt egale, altfel 0)
+    - ( != ) | element_1 != element_2  (returneaza 1 daca elementele nu sunt egale, altfel 0)
+    - ( > )  | element_1 > element_2   (returneaza 1 daca elementul 1 este mai mare, altfel 0)
+    - ( < )  | element_1 < element_2   (returneaza 1 daca elementul 1 este mai mic, altfel 0)
+    - ( >= ) | element_1 >= element_2  (returneaza 1 daca elementul 1 este mai mare sau egal, altfel 0)
+    - ( <= ) | element_1 == element_2  (returneaza 1 daca elementul 1 este mai mic sau egal, altfel 0)
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
