@@ -125,7 +125,9 @@ Atat timp cat le scriem corect una dupa alta si respectam una din ordini:
 <br>nu conteaza la ce distanta le punem una de alta sau pe ce linie, putem avea 100 de linii goale intre ele, compilatorul va sti ca se incepe de la " { " si se termina la " }" , dar va fi mai greu de vizualizat / inteles codul de aceea e bine sa le scrieti mereu dupa un template care este aratat la inceputul sectiei.
 
 
-Continuam la tema noastra
+Deci, puteti vedea ca un bloc de cod poate incepe si termina cu " { } ", in cazul nostru aceste acolade arata camera voastra, tot ce se afla intre ele e ceea ce aveti voi in camera. 
+<br>Va amintitit ca tot ce aveti in camera ( calculatorul etc ) lucreaza doar in cazul in care intrerupatorul de lumina este aprins? Pai exact si elementele acestui bloc de cod sau mai bine zis, codul din acest bloc. 
+<br> ***!!! TOATE ELEMENTELE DIN BLOC EXISTA DOAR ATAT TIMP CAT EXISTA BLOCUL, DACA TERMINATI BLOCUL CU } SAU ; ELEMENTELE SE STERG DIN MEMORIE !!!
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
