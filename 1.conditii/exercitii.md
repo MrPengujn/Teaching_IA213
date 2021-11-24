@@ -1,4 +1,4 @@
-##Folositi conditii! 
+## Folositi conditii! 
 Nu va complicati prea tare ;)
 
 ---
@@ -17,13 +17,14 @@ Nu va complicati prea tare ;)
 
 2. Joc de ghicit cifre:
     Scrieti un program care genereaza un numar aleatoriu de la 1 pana la 10. Dupa ce s-a generat numarul, luati input de la utilizator si verificati daca utilizatorul a ghicit numarul generat aleatoriu.
-    
+
 3. Modificati exercitiul de mai sus pentru a permite utilizatorului sa-si aleaga nivelul, pentru fiecare nivel se vor alege numere aleatorii in intervale diferite:
     - Nivelul 1 ( cifre de la 1 la 10 )
     - Nivelul 2 ( cifre de la 1 la 100 )
     - Nivelul 3 ( cifre de la 1 la 1000 )
 
 **BONUS** Din cate puteti observa la momentul de fata programul din exercitiul 2/3 este destul de greu de folosit din cauza ca verifica inputul utilizatorului o singura data, incercati urmatoarele nivele bonus:
+
     - Faceti programul sa ia numere de la utilizator pana acesta nu ghiceste numarul generat sau pana nu apasa ctr+c ( ctrl + c este un shortcut care termina imediat executia programului in consola )
     - BONUS++ Ar fi fun ca utilizatorul sa poata muri, nu? Oferiti 3 vieti utilizatorului, daca acesta greseste un numar, scadeti o viata, cand ajunge la 0 anuntati utilizatorul ca a pierdut
 
