@@ -71,7 +71,7 @@ Pe langa faptul ca putem da constante ( constantele sunt numerele hard-codate, a
     - **>=** 
         - element_1 >= element_2 ||| *(returneaza 1 daca elementul 1 este mai mare sau egal, altfel 0)*
     - **<=** 
-        - element_1 == element_2 ||| *(returneaza 1 daca elementul 1 este mai mic sau egal, altfel 0)*
+        - element_1 <= element_2 ||| *(returneaza 1 daca elementul 1 este mai mic sau egal, altfel 0)*
 
 ---
 
