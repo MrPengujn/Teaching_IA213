@@ -59,12 +59,12 @@ Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
 Pe langa faptul ca putem da constante ( constantele sunt numerele hard-codate, aka nu sunt variabile ), putem oferi si diferite expresii conditiilor:
 - Putem oferi direct variabile, conditia va verifica daca variabila este diferita de zero, in cazul in care ea este diferita de zero se va executa codul.
 - Putem compara doua variable, constante cu ajutorul urmatorilor operatori:
-    - ** == ** ||| element_1 == element_2 ||| *(returneaza 1 daca elementele sunt egale, altfel 0)*
-    - ** != ** ||| element_1 != element_2 ||| *(returneaza 1 daca elementele nu sunt egale, altfel 0)*
-    - ** > **  ||| element_1 > element_2  ||| *(returneaza 1 daca elementul 1 este mai mare, altfel 0)*
-    - ** < **  ||| element_1 < element_2  ||| *(returneaza 1 daca elementul 1 este mai mic, altfel 0)*
-    - ** >= ** ||| element_1 >= element_2 ||| *(returneaza 1 daca elementul 1 este mai mare sau egal, altfel 0)*
-    - ** <= ** ||| element_1 == element_2 ||| *(returneaza 1 daca elementul 1 este mai mic sau egal, altfel 0)*
+    - **==** ||| element_1 == element_2 ||| *(returneaza 1 daca elementele sunt egale, altfel 0)*
+    - **!=** ||| element_1 != element_2 ||| *(returneaza 1 daca elementele nu sunt egale, altfel 0)*
+    - **>**  ||| element_1 > element_2  ||| *(returneaza 1 daca elementul 1 este mai mare, altfel 0)*
+    - **<**  ||| element_1 < element_2  ||| *(returneaza 1 daca elementul 1 este mai mic, altfel 0)*
+    - **>=** ||| element_1 >= element_2 ||| *(returneaza 1 daca elementul 1 este mai mare sau egal, altfel 0)*
+    - **<=** ||| element_1 == element_2 ||| *(returneaza 1 daca elementul 1 este mai mic sau egal, altfel 0)*
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
