@@ -27,26 +27,22 @@ if( conditie ){
 if( conditie )
     //cod;
 ```
-(Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod)
+(Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod, prima foloseste acolade iar a doua " ; ")
 
 daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero, deci if-ul verifica valoarea din interiorul parantezelor rotunde.
 
----
 ```c
 if( 1 ){
     printf("Conditia 1 a fost executata!\n");
 }
-if( -125123 ){
+if( -125123 )
     printf("Conditia 2 a fost executata!\n");
-}
-if( 0 ){
-    printf("Conditia 3 a fost executata!\n");
-}
+if( 0 ) printf("Conditia 3 a fost executata!\n");
 ```
 ![ss](../resources/conditii_ss.png)
 
----
 Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
+> Toate trei tipuri de a scrie conditia sunt corecte dar cel mai bine e sa le utilizati pe primele doua
 
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
