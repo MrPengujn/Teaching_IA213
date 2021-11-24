@@ -17,7 +17,7 @@ Pentru a intelege mai bine cum functioneaza conditia, incercati sa va inchipuiti
 ![switch](https://qph.fs.quoracdn.net/main-qimg-62f126ef48af2bfa032c8a7930b59777-lq)
 
 ---
-In __C__ o conditie simpla arata astfel:
+>In __C__ o conditie simpla arata astfel:
 ```c
 if( conditie ){
     //cod
@@ -27,7 +27,7 @@ if( conditie ){
 if( conditie )
     //cod;
 ```
-> Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod, prima foloseste acolade iar a doua " ; "
+Ambele metode sunt corecte, folosim prima metoda daca avem mai multe linii de cod si a doua metoda daca avem o singura linie de cod, prima foloseste acolade iar a doua " ; "
 
 Daca incercam sa intelegem conditia dupa cele explicate mai sus, ne dam seama ca aceasta conditie va executa codul doar in cazul in care conditia este diferita de zero, deci if-ul verifica valoarea din interiorul parantezelor rotunde.
 
@@ -38,10 +38,11 @@ if( 1 ){
 
 if( -125123 )
     printf("Conditia 2 a fost executata!\n");
-    
+
 if( 0 ) printf("Conditia 3 a fost executata!\n");
 ```
 > Toate trei tipuri de a scrie conditia sunt corecte dar cel mai bine e sa le utilizati pe primele doua
+
 ![ss](../resources/conditii_ss.png)
 
 Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
