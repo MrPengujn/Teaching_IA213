@@ -28,8 +28,8 @@ Nu va complicati prea tare ;)
 
 **BONUS**
 Din cate puteti observa la momentul de fata programul din exercitiul 2/3 este destul de greu de folosit si ireal din cauza ca verifica inputul utilizatorului o singura data, incercati urmatoarele nivele bonus:
-- Faceti programul sa ia numere de la utilizator pana acesta nu ghiceste numarul generat sau pana nu apasa ctr+c ( ctrl + c este un shortcut care termina imediat executia programului in consola )
-- BONUS++ Ar fi fun ca utilizatorul sa poata muri, nu? Oferiti 3 vieti utilizatorului, daca acesta greseste un numar, scadeti o viata, cand ajunge la 0 anuntati utilizatorul ca a pierdut
+- Faceti programul sa ia numere de la utilizator pana acesta nu ghiceste numarul generat sau pana nu apasa ctr+c ( ctrl + c este un shortcut care termina imediat executia programului in consola ).
+- BONUS++ Ar fi fun daca utilizatorul ar poata muri, nu? Oferiti 3 vieti utilizatorului, daca acesta greseste un numar, scadeti o viata, cand ajunge la 0 anuntati utilizatorul ca a pierdut.
 
 ---
-Daca ati rezolvat tot pana acum, nu va opriti aici, serios, poate aveti de facut lab la AM1 /ALGA /PC etc dar... macar in timpul liber petreceti ceva timp implementad noi chestii, daca ati inteles functiile, intrebativa ce ati putea face cu functii in programele realizate mai sus, poate vreti sa combinati verificarea numelui / parolei utilizatorului inainte de a-i permite sa joace, permiteti imaginatiei sa lucreze pentru voi
+Daca ati rezolvat tot pana acum, nu va opriti aici, serios, poate aveti de facut lab la AM1 /ALGA /PC etc dar... macar in timpul liber... petreceti ceva timp implementad noi chestii, daca ati inteles functiile, intrebativa ce ati putea face cu functii in programele realizate mai sus, poate vreti sa combinati verificarea numelui / parolei utilizatorului inainte de a-i permite sa joace, permiteti imaginatiei sa lucreze pentru voi.
