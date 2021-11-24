@@ -105,9 +105,11 @@ Toate trei sunt blocuri de cod. Aceste linii de cod pot fi scrise si asa:
 
 
 	}
-
+```
+```c
 	if (1){printf("ok");}
-
+```
+```c
 	if (1)			
 				
 		
