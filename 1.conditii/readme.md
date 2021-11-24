@@ -73,6 +73,53 @@ Pe langa faptul ca putem da constante ( constantele sunt numerele hard-codate, a
     - **<=** 
         - element_1 == element_2 ||| *(returneaza 1 daca elementul 1 este mai mic sau egal, altfel 0)*
 
+---
+
+## Visibilitatea functiei
+
+Pentru a intelege cum lucreaza vizibilitatea corpului unei conditii, si nu doar a conditiei dar si a ciclurilor / functiilor etc, incercati sa ganditi in urmatorul mod:
+La inceput am spus ca un calculator lucreaza in 1 si 0 si v-am prezentat exemplul cu un intrerupator de lumina, inchipuitiva ca acel intrerupator controleaza lumina pentru intreaga camera, deci, daca el e stins, nu puteti aprinde calculatorul, televizorul, lumina sau alte dispozitive electrice in camera, ganditiva ca acele dispozitive nu exista, ele apar doar atunci cand le oferiti electricitate.
+Aproximativ la fel lucreaza si programul, conditia, if in acest caz, verifica ceea ce se afla intre parantezele rotunde, daca gaseste 0, nu executa nimic din blocul sau (blocul e ceea ce se afla intre acolade sau ceea ce e pana la ;), daca gaseste alt numar incepe executia, aprinde intrerupatorul.
+
+```c
+	if (1) 
+	{
+		printf("ok");
+	}
+
+	if (1){
+		printf("ok");
+	}
+
+	if (1) printf("ok");
+```
+
+Toate trei sunt blocuri de cod. Aceste linii de cod pot fi scrise si asa:
+
+```c
+	if (1) 
+	
+	
+	{
+		printf("ok");
+
+
+	}
+
+	if (1){printf("ok");}
+
+	if (1)			
+				
+		
+					printf("ok");
+```
+
+Atat timp cat le scriem corect una dupa alta si respectam 
+<br>__if, paranteze rotunde, acolada deschisa, cod, acolada inchisa__ 
+<br>sau 
+<br>__if, paranteze rotunde, cod, punct si virgula__
+nu conteaza la ce distanta le punem una de alta sau pe ce linie, putem avea 100 de linii goale intre ele, compilatorul va sti ca se incepe de la { si se termina la }, dar va fi mai greu de vizualizat / inteles codul de aceea e bine sa le scrieti mereu dupa un template care este aratat la inceputul sectiei
+
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
