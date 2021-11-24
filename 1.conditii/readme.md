@@ -131,6 +131,9 @@ Deci, puteti vedea ca un bloc de cod poate incepe si termina cu " { } ", in cazu
 <br> ***!!! TOATE ELEMENTELE DIN BLOC EXISTA DOAR ATAT TIMP CAT EXISTA BLOCUL, DACA TERMINATI BLOCUL CU } SAU ; ELEMENTELE SE STERG DIN MEMORIE !!!***
 
 Deci, daca stingem intrerupatorul, in cazul nostru el se stinge automat cand ajunge la " } ", tot ceea ce ati avut in camera nu mai poate fi utilizat. In viata reala ele vor ramane in camera dar intr-un calculator ele sunt sterse din memoria temporara sau mai bine zis RAM pentru a nu ocupa spatiu degeaba (Nu avem ram infinit).
+
+![s](https://images.slideplayer.com/29/9499158/slides/slide_20.jpg)
+
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
