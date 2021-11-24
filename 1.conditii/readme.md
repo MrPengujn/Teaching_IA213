@@ -132,8 +132,12 @@ Deci, puteti vedea ca un bloc de cod poate incepe si termina cu " { } ", in cazu
 
 Deci, daca stingem intrerupatorul, in cazul nostru el se stinge automat cand ajunge la " } ", tot ceea ce ati avut in camera nu mai poate fi utilizat. In viata reala ele vor ramane in camera dar intr-un calculator ele sunt sterse din memoria temporara sau mai bine zis RAM pentru a nu ocupa spatiu degeaba (Nu avem ram infinit).
 
-![s](https://images.slideplayer.com/29/9499158/slides/slide_20.jpg)
+![s](https://image.slidesharecdn.com/chapter-iv-130406055125-phpapp02/95/c-chapter-iv-11-638.jpg?cb=1365227662)
 
+In imaginea de mai sus, variabilele x si ch sunt accesibile in tot programul (globale), ele vor fi sterse doar cand vom inchide intregul program
+<br>Variabilele age si number sunt accesibile doar in functia main (locale), odata ce iesim din functia main ele sunt sterse din memorie. 
+
+Ultimul lucru care ar trebui sa-l tineti minte e ca o variabila globala poate fi accesata in orsice functie ( atat timp cat o declaram deasupra functiei, compilatorul nostru citeste codul de sus in jos ), variabilele locale pot if accesate doar intre { } conditiei, ciclului, functiei etc...
 <!--
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
