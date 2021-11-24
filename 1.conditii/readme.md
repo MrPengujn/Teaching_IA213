@@ -1,4 +1,4 @@
-###Conditii in C
+### Conditii in C
 
 Calculatorul lucreaza in numere binare, adica *1* si *0*, nu o sa explic extrem de detaliat ce fac ele deoarece nu avem nevoie sa le folosim avansat inca, tot ce trebuie sa tineti minte e urmatorul concept:
 
@@ -51,7 +51,7 @@ Toate conditiile inafara de conditia care ia valoarea 0 sunt executate
 
 ---
 
-###Expresii in conditie
+### Expresii in conditie
 
 Pe langa faptul ca putem da constante ( constantele sunt numerele hard-codate, aka nu sunt variabile ), putem oferi si diferite expresii conditiilor:
 -Putem oferi direct variabile, conditia va verifica daca variabila este diferita de zero, in cazul in care ea este diferita de zero se va executa codul.
